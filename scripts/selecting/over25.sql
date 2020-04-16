@@ -1,1 +1,1 @@
--- Your SQL here
+SELECT TIMESTAMPDIFF(YEAR, date_of_birth, NOW()) AS age FROM students;
