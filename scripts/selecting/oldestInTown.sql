@@ -1,1 +1,1 @@
--- Your SQL here
+SELECT MAX(EXTRACT(YEAR from AGE(date_of_birth))), town_of_origin FROM students GROUP BY town_of_origin

@@ -1,1 +1,1 @@
-SELECT TIMESTAMPDIFF(YEAR, date_of_birth, NOW()) AS age FROM students;
+SELECT * FROM students WHERE EXTRACT(YEAR from AGE(date_of_birth)) > 25;
